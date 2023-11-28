@@ -1,0 +1,117 @@
+<html>
+<head>
+    <title>recipe analyzer</title> 
+</head>
+<body>
+  <div class="tool recipe-analyzer-container">
+    <div class="form">
+      <h4>Enter Recipe Name (optional)</h4>
+      <input aria-label="Enter recipe name"class="recipe-name">
+      <div class="raw-data">
+        <header>
+          <h3>Enter Recipe Ingredients</h3>
+          <a tabindex="0" class="btn-sample">Try a Sample Recipe</a>
+        </header>
+        <textarea aria-label="Enter recipe ingredients" rows="10"class="focused"></textarea>
+        <div id="servings_1-1" class="comp servings">
+          <div class="serving-number">
+            <h4>Select Number of Servings</h4>
+            <div class="select">
+              <select aria-label="Select number of servings">
+                <option value="null" selected="selected" disabled="disabled" hidden="hidden">---</option>
+                <option bind-value="n">1</option>
+                <option bind-value="n">2</option>
+                <option bind-value="n">3</option>
+                <option bind-value="n">4</option>
+                <option bind-value="n">5</option>
+                <option bind-value="n">6</option>
+                <option bind-value="n">7</option>
+                <option bind-value="n">8</option>
+                <option bind-value="n">9</option>
+                <option bind-value="n">10</option>
+                <option bind-value="n">11</option>
+                <option bind-value="n">12</option>
+                <option bind-value="n">13</option>
+                <option bind-value="n">14</option>
+                <option bind-value="n">15</option>
+                <option bind-value="n">16</option>
+                <option bind-value="n">17</option>
+                <option bind-value="n">18</option>
+                <option bind-value="n">19</option>
+                <option bind-value="n">20</option>
+                <option bind-value="n">21</option>
+                <option bind-value="n">22</option>
+                <option bind-value="n">23</option>
+                <option bind-value="n">24</option>
+                <option bind-value="n">25</option>
+                <option bind-value="n">26</option>
+                <option bind-value="n">27</option>
+                <option bind-value="n">28</option>
+                <option bind-value="n">29</option>
+                <option bind-value="n">30</option>
+                <option bind-value="n">31</option>
+                <option bind-value="n">32</option>
+                <option bind-value="n">33</option>
+                <option bind-value="n">34</option>
+                <option bind-value="n">35</option>
+                <option bind-value="n">36</option>
+                <option bind-value="n">37</option>
+                <option bind-value="n">38</option>
+                <option bind-value="n">39</option>
+                <option bind-value="n">40</option>
+                <option bind-value="n">41</option>
+                <option bind-value="n">42</option>
+                <option bind-value="n">43</option>
+                <option bind-value="n">44</option>
+                <option bind-value="n">45</option>
+                <option bind-value="n">46</option>
+                <option bind-value="n">47</option>
+                <option bind-value="n">48</option>
+                <option bind-value="n">49</option>
+                <option bind-value="n">50</option>
+                <option bind-value="n">51</option>
+                <option bind-value="n">52</option>
+                <option bind-value="n">53</option>
+                <option bind-value="n">54</option>
+                <option bind-value="n">55</option>
+                <option bind-value="n">56</option>
+                <option bind-value="n">57</option>
+                <option bind-value="n">58</option>
+                <option bind-value="n">59</option>
+                <option bind-value="n">60</option>
+                <option bind-value="n">61</option>
+                <option bind-value="n">62</option>
+                <option bind-value="n">63</option>
+                <option bind-value="n">64</option>
+                <option bind-value="n">65</option>
+                <option bind-value="n">66</option>
+                <option bind-value="n">67</option>
+                <option bind-value="n">68</option>
+                <option bind-value="n">69</option>
+                <option bind-value="n">70</option>
+                <option bind-value="n">71</option>
+                <option bind-value="n">72</option>
+              </select>
+              <label class="tool-input-label-units-arrow">
+                ::before 
+              </label>
+            </div>
+          </div>
+          <div class="serving-size">
+            <h4>Enter serving size (optional)</h4>
+            <input aria-label="Enter serving size" placeholder="e.g. 2 cups, 1 tablespoon" class="serving-size-quantity">
+          </div>
+        </div>
+        <button disabled="disabled" class="btn btn-padded btn-submit">Analyze Recipe</button>
+      </div>
+    </div>
+    <!---->
+    <div id="loading-animation_1-1" data-position="center" class="comp loading-animation">
+      <div class="spinner">
+        <div class="double-bounce1"></div>
+        <div class="double-bounce2"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
